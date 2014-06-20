@@ -69,6 +69,7 @@
                 touchMove: true,
                 touchThreshold: 5,
                 useCSS: true,
+                useCSSTransforms: true,
                 vertical: false
             };
 
@@ -1136,7 +1137,8 @@
             _.transitionType = 'transition';
         }
 
-        _.transformsEnabled = (_.animType !== null);
+        _.transformsEnabled =
+            _.options.useCSSTransforms && (_.animType !== null);
 
     };
 
