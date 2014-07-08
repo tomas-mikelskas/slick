@@ -195,9 +195,9 @@
             }
         }
 
-        _.$slides = _.$slideTrack.children(this.options.slide);
+        //_.$slides = _.$slideTrack.children(this.options.slide);
 
-        _.$slideTrack.children(this.options.slide).remove();
+        //_.$slideTrack.children(this.options.slide).remove();
 
         _.$slideTrack.append(_.$slides);
         
@@ -1057,9 +1057,9 @@
 
         _.$slides = _.$slideTrack.children(this.options.slide);
 
-        _.$slideTrack.children(this.options.slide).remove();
+        //_.$slideTrack.children(this.options.slide).remove();
 
-        _.$slideTrack.append(_.$slides);
+        //_.$slideTrack.append(_.$slides);
 
         _.$slidesCache = _.$slides;
 
