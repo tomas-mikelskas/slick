@@ -198,9 +198,9 @@
 
         _.$slides = _.$slideTrack.children(this.options.slide);
 
-        _.$slideTrack.children(this.options.slide).remove();
+        //_.$slideTrack.children(this.options.slide).remove();
 
-        _.$slideTrack.append(_.$slides);
+        //_.$slideTrack.append(_.$slides);
 
         _.$slides.each(function(index, element) {
             $(element).attr("index",index);
@@ -1062,9 +1062,9 @@
 
         _.$slides = _.$slideTrack.children(this.options.slide);
 
-        _.$slideTrack.children(this.options.slide).remove();
+        //_.$slideTrack.children(this.options.slide).remove();
 
-        _.$slideTrack.append(_.$slides);
+        //_.$slideTrack.append(_.$slides);
 
         _.$slidesCache = _.$slides;
 
